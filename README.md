@@ -1,5 +1,4 @@
-**FINTRACK DATA PIPELINE (DATABRICKS + PYSPARK)
-**
+**FINTRACK DATA PIPELINE (DATABRICKS + PYSPARK)**
 
  **Overview**
 This project implements a real-time data pipeline using PySpark and Databricks based on the Medallion Architecture (Bronze, Silver, Gold).
