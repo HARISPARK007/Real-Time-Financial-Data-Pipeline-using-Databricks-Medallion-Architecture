@@ -1,10 +1,11 @@
-FinTrack Data Pipeline (Databricks + PySpark)
+**FINTRACK DATA PIPELINE (DATABRICKS + PYSPARK)
+**
 
- Overview
+ **Overview**
 This project implements a real-time data pipeline using PySpark and Databricks based on the Medallion Architecture (Bronze, Silver, Gold).
 The pipeline ingests raw financial transaction data, processes it through multiple layers, and generates aggregated insights for analytics.
 
-Architecture
+**Architecture**
 
 <img width="609" height="943" alt="image" src="https://github.com/user-attachments/assets/1a57bb5d-04ee-46ad-8717-d032358fa2db" />
 
@@ -12,8 +13,8 @@ Bronze Layer → Raw data ingestion (streaming)
 Silver Layer → Data cleaning & transformation
 Gold Layer → Aggregated insights for business use
 
-Tech Stack
-
+**Tech Stack
+**
 •	PySpark
 •	Databricks
 •	Delta Lake
@@ -34,7 +35,7 @@ Applies basic data validation
 Performs business-level aggregations
 Generates insights like total transactions, category-wise spend
 
-Job Execution (Databricks)
+**Job Execution (Databricks)**
 
 Below shows the pipeline running in Databricks:
 
@@ -44,7 +45,7 @@ Below shows the pipeline running in Databricks:
 ✔️ Streaming ingestion working
 ✔️ Tables created and updated incrementally
 
-Sample Output / Visualization
+**Sample Output / Visualization**
 
 Example of processed data and insights:
 
@@ -57,7 +58,7 @@ Cleaned dataset in Silver layer
 Aggregated results in Gold layer
 Category-wise analysis of transactions
 
-📁 Project Structure
+📁 **Project Structure**
 
 fintrack-project/
 │
@@ -71,19 +72,20 @@ fintrack-project/
 └── data/
 
     
-How to Run
-•	Upload notebooks to Databricks workspace
+**How to Run
+**•	Upload notebooks to Databricks workspace
 •	Attach cluster
 •	Run in order:
 •	bronze.ipynb
 •	silver.ipynb
 •	gold.ipynb
-
-Key Highlights
+**
+Key Highlights**
 •	Real-time data ingestion using streaming
 •	Medallion architecture implementation
 •	Scalable and modular pipeline design
 •	Handles schema evolution and incremental processing
 
-Author
-HariHaran S
+**Author
+HariHaran S**
+****
